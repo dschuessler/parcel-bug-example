@@ -1,5 +1,7 @@
 {
+  "main": "build/main/index.js",
   "scripts": {
+    "start": "electron .",
     "watch": "parcel watch src/main/index.ts src/renderer/index.html --public-url ./ -d build --target=electron"
   },
   "devDependencies": {
